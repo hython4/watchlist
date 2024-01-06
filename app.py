@@ -234,7 +234,7 @@ def forge():
         db.session.add(movie)
 
     db.session.commit()
-    click.echo("Add fake data done.")
+    click.echo("Done.")
 
 
 @app.cli.command()
