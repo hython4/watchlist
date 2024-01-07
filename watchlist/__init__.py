@@ -43,3 +43,6 @@ def inject_user():
 
     user = User.query.first()
     return dict(user=user)
+
+
+from watchlist import views, errors, commands  # noqa: E402, I001, F401
